@@ -1,5 +1,6 @@
 class Article < ActiveRecord::Base
   belongs_to :category
+  #yayayay
 
   # Validations
   validates_presence_of :title, :content
